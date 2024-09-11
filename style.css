@@ -41,7 +41,7 @@ body{
 }
 
 .container-sm{
-    width: 70%;
+    width: 55%;
     margin: auto;
     padding: 2rem;
 }
@@ -70,9 +70,9 @@ ul{
     gap: 20px;
 }
 
-a{
+a:not(.buy-now, .delete){
     text-decoration: none;
-    color: var(--drop-dark);
+    color: var(--drop-light);
 }
 
 img{
@@ -82,6 +82,15 @@ img{
 h1{
     text-align: center;
     font-size: 4rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+h4{
+    margin-top: 1rem;
 }
 
 /*#end common region */
@@ -118,17 +127,75 @@ header{
     margin-bottom: -5rem;
 }
 
-.col-4-top{
-    margin-top: 2rem;
-}
-
-.col-4-bottom, .delete{
+.col-4-top, .col-4-bottom, .delete{
     margin-top: 2rem;
 }
 
 .delete{
+    color: var(--drop-dark);
+    text-decoration: none;
     display: inline-block;
     margin-bottom: 2rem;
+}
+
+.monthly{
+    margin-top: 2rem;
+}
+
+.card{
+    border: 1px solid lightgray;
+}
+
+.yearly{
+    margin-top: 2rem;
+    margin-left: 20px;
+}
+
+.card-title{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+.plans{
+    padding: 2rem;
+}
+
+.card-body{
+    padding: 1rem;
+}
+
+.card-body > h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-body, .card-body-top, .card-body-bottom, .card-body-bottom-list{
+    margin-top: 2rem;
+}
+
+.gray-font{
+    color: gray;
+    margin-top: 1rem;
+}
+
+.card-body-top > li, .card-body-bottom-list > li{
+    margin-top: 2rem;
+}
+
+.divider{
+    margin-top: 1rem;
+    width: 20%;
+    color: lightgray;
+}
+
+.try{
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.card-body-bottom-list > li i{
+    color: var(--drop-buttons);
 }
 
 /*#endmain region */

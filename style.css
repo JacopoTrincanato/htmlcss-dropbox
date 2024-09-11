@@ -49,6 +49,7 @@ body{
 .col-4{
     width: calc((100% / 12) * 3.8);
     padding: 0.5rem;
+    max-height: 100%;
 }
 
 .col-8{
@@ -143,6 +144,7 @@ header{
 
 .card{
     border: 1px solid lightgray;
+    height: 1000px;
 }
 
 .yearly{
@@ -191,6 +193,11 @@ header{
 .try{
     display: inline-block;
     margin-top: 2rem;
+    text-align: center;
+}
+
+.contact{
+    padding: 0.5rem 5rem;
 }
 
 .card-body-bottom-list > li i{

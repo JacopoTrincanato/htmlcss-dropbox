@@ -89,6 +89,11 @@ h2{
     margin-top: 3rem;
 }
 
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
 h4{
     margin-top: 1rem;
 }
@@ -152,10 +157,13 @@ header{
     margin-left: 20px;
 }
 
-.card-title{
+.card-title, .big-card-title{
     text-align: center;
-    border-bottom: 1px solid lightgray;
     padding: 10px;
+}
+
+.card-title{
+    border-bottom: 1px solid lightgray;
 }
 
 .plans{
@@ -164,11 +172,6 @@ header{
 
 .card-body{
     padding: 1rem;
-}
-
-.card-body > h3{
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
 }
 
 .card-body, .card-body-top, .card-body-bottom, .card-body-bottom-list{
@@ -203,5 +206,22 @@ header{
 .card-body-bottom-list > li i{
     color: var(--drop-buttons);
 }
+
+.big-card-body{
+    padding: 2rem;
+}
+
+.big-card-title, .big-card-body{
+    border: 1px solid lightgray;
+}
+
+.big-card-body-top-left > h3{
+    margin-top: 2rem;
+}
+
+.big-card-body-bottom > p{
+    margin-top: 3rem;
+}
+
 
 /*#endmain region */

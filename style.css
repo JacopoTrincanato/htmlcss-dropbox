@@ -62,6 +62,10 @@ body{
     padding: 0.5rem;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 /*#end utilities region */
 
 /*#common region */
@@ -132,7 +136,7 @@ header{
     margin-bottom: -5rem;
 }
 
-.col-4-top, .col-4-bottom, .delete{
+.col-4-top, .col-4-bottom, .delete, .monthly{
     margin-top: 2rem;
 }
 
@@ -141,10 +145,6 @@ header{
     text-decoration: none;
     display: inline-block;
     margin-bottom: 2rem;
-}
-
-.monthly{
-    margin-top: 2rem;
 }
 
 .card{
@@ -229,5 +229,8 @@ header{
     background-color: var(--drop-light);
 }
 
+.container-sm > h2{
+    padding: 1rem 0;
+}
 
 /*#endmain region */

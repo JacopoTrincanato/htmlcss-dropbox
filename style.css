@@ -215,12 +215,18 @@ header{
     border: 1px solid lightgray;
 }
 
-.big-card-body-top-left > h3{
+.big-card-body-top-left > h3, .partner{
     margin-top: 2rem;
 }
 
 .big-card-body-bottom > p{
     margin-top: 3rem;
+}
+
+.partner{
+    border: 1px solid var(--drop-dark);
+    padding: 0.5rem 0.75rem;
+    background-color: var(--drop-light);
 }
 
 

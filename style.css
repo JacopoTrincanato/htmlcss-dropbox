@@ -75,7 +75,7 @@ ul{
     gap: 20px;
 }
 
-a:not(.buy-now, .delete){
+a:not(.buy-now, .delete, .clinet-informations){
     text-decoration: none;
 }
 
@@ -231,6 +231,10 @@ header{
 
 .container-sm > h2{
     padding: 1rem 0;
+}
+
+.users > h2{
+    margin-bottom: 3rem;
 }
 
 /*#endmain region */

@@ -138,7 +138,7 @@ header{
 /*#endheader region */
 
 /*#main region */
-.jumbotron{
+.jumbotron, .call-to-action{
     background-color: var(--drop-section-light);
 }
 
@@ -218,7 +218,7 @@ header{
     color: var(--drop-buttons);
 }
 
-.big-card-body{
+.big-card-body, .call-to-action{
     padding: 2rem;
 }
 
@@ -316,4 +316,13 @@ header{
     width: 50%;
 }
 
+.col-8 > h2{
+    color: #61082b;
+}
+
+.free-try{
+    background-color: var(--drop-light);
+    text-align: center;
+    padding: 0.5rem 0 ;
+}
 /*#endmain region */

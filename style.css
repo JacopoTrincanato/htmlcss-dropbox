@@ -250,7 +250,6 @@ header{
 
 .left img, .right img{
     aspect-ratio: 1;
-    padding: 2rem;
     object-fit: contain;
     filter: invert(1);
     

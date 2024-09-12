@@ -58,27 +58,20 @@ body{
     padding: 2rem;
 }
 
-.col-2{
-    width: calc((100% / 12) * 2);
-}
-
-.col-4{
-    width: calc((100% / 12) * 4);
+.col-4, .col-8, .col-12{
     padding: 0.5rem; 
 }
 
-.col-logos{
+.col-4, .col-logos{
     width: calc((100% / 12) * 4);
 }
 
 .col-8{
     width: calc((100% / 12) * 8);
-    padding: 0.5rem;
 }
 
 .col-12{
     width: 100%;
-    padding: 0.5rem;
 }
 
 .wrap{
@@ -121,6 +114,10 @@ h4{
     margin-top: 1rem;
 }
 
+.m-top_2rem{
+    margin-top: 2rem;
+}
+
 /*#end common region */
 
 /*#header region */
@@ -157,10 +154,6 @@ header{
 
 .col-8 img{
     margin-bottom: -5rem;
-}
-
-.col-4-top, .col-4-bottom, .delete, .monthly, .description{
-    margin-top: 2rem;
 }
 
 .delete{
@@ -216,18 +209,9 @@ header{
     padding: 0.5rem 0.75rem;
 }
 
-.card-body, .card-body-top, .card-body-bottom, .card-body-bottom-list
-{
-    margin-top: 2rem;
-}
-
 .gray-font{
     color: gray;
     margin-top: 1rem;
-}
-
-.card-body-top > li, .card-body-bottom-list > li{
-    margin-top: 2rem;
 }
 
 .divider{
@@ -256,10 +240,6 @@ header{
 
 .big-card-title, .big-card-body{
     border: 1px solid lightgray;
-}
-
-.big-card-body-top-left > h3, .partner{
-    margin-top: 2rem;
 }
 
 .big-card-body-bottom > p{
@@ -348,10 +328,6 @@ header{
     padding: 2rem;
 }
 
-.functions-body > p, .functions-body > div{
-    margin-top: 2rem;
-}
-
 .left > div, .right > div{
     width: 50%;
 }
@@ -420,7 +396,5 @@ footer{
 .lang-selection{
     border-top: 1px solid var(--drop-light);
 }
-
-
 
 /*#endfooter region */

@@ -162,6 +162,10 @@ header{
     height: 1000px;
 }
 
+.monthly{
+    border: 20px solid var(--drop-buttons);
+}
+
 .yearly{
     margin-top: 2rem;
     margin-left: 20px;

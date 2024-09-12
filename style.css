@@ -326,6 +326,10 @@ header{
     padding: 0.5rem 0 ;
 }
 
+.FAQ{
+    margin-bottom: 6rem;
+}
+
 .item{
     padding: 2rem 0;
 }
@@ -342,3 +346,41 @@ header{
     padding-bottom: 3rem;
 }
 /*#endmain region */
+
+/*footer region */
+
+footer{
+    background-color: var(--drop-dark);
+
+    div{
+        margin-top: 3rem;
+    }
+
+    ul{
+        line-height: 2rem;
+    }
+
+    a{
+        color: var(--drop-light); 
+    }
+
+    i, span{
+        color: gray;
+    }
+
+    i{
+        margin-top: 4rem;
+    }
+}
+
+.footer-item > h3, .footer-item > ul{
+    color: var(--drop-light);
+}
+
+.lang-selection{
+    border-top: 1px solid var(--drop-light);
+}
+
+
+
+/*#endfooter region */

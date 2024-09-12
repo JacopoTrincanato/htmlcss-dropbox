@@ -55,7 +55,11 @@ body{
 
 .col-4{
     width: calc((100% / 12) * 4);
-    padding: 0.5rem;
+    padding: 0.5rem; 
+}
+
+.col-logos{
+    width: calc((100% / 12) * 4);
 }
 
 .col-8{
@@ -252,7 +256,6 @@ header{
     aspect-ratio: 1;
     object-fit: contain;
     filter: invert(1);
-    
 }
 
 .designit{
@@ -302,10 +305,15 @@ header{
 
 .functions{
     background-color: lightgray;
+    padding: 2rem;
 }
 
 .functions-body > p, .functions-body > div{
     margin-top: 2rem;
+}
+
+.left > div, .right > div{
+    width: 50%;
 }
 
 /*#endmain region */

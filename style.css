@@ -159,7 +159,7 @@ header{
     margin-bottom: -5rem;
 }
 
-.col-4-top, .col-4-bottom, .delete, .monthly{
+.col-4-top, .col-4-bottom, .delete, .monthly, .description{
     margin-top: 2rem;
 }
 
@@ -170,17 +170,17 @@ header{
     margin-bottom: 2rem;
 }
 
+.payment-plan{
+    margin-left: 3rem;
+}
+
 .card{
     border: 1px solid lightgray;
     height: 1000px;
 }
 
-.monthly{
-    border: 20px solid var(--drop-buttons);
-}
-
 .yearly{
-    margin-top: 2rem;
+    margin: 2rem 0;
     margin-left: 20px;
 }
 
@@ -207,6 +207,13 @@ header{
 
 .dropbox-business .container-sm h2{
     margin-bottom: 4rem;
+}
+
+.sell-office{
+    color: var(--drop-light);
+    background-color: var(--drop-buttons);
+    margin-top: 3rem;
+    padding: 0.5rem 0.75rem;
 }
 
 .card-body, .card-body-top, .card-body-bottom, .card-body-bottom-list

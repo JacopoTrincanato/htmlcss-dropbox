@@ -325,4 +325,20 @@ header{
     text-align: center;
     padding: 0.5rem 0 ;
 }
+
+.item{
+    padding: 2rem 0;
+}
+
+.item > i, .item > h4{
+    vertical-align: middle;
+}
+
+#questions, .item{
+    border-bottom: 1px solid gray;
+}
+
+#questions{
+    padding-bottom: 3rem;
+}
 /*#endmain region */

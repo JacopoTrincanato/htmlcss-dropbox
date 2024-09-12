@@ -237,4 +237,20 @@ header{
     margin-bottom: 3rem;
 }
 
+.logos{
+    width: 100%;
+}
+
+.left img{
+    height: 200px;
+    aspect-ratio: 1;
+    background-color: red;
+    padding: 2rem;
+}
+
+.designit{
+    color: var(--drop-light);
+    font-size: 10px
+}
+
 /*#endmain region */

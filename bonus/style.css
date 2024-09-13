@@ -49,7 +49,7 @@ body{
     width: 65%;
     margin: auto;
     padding: 1rem;
-    height: 500px;
+    
 }
 
 .container-sm{
@@ -451,21 +451,19 @@ footer{
 
 /*media query*/
 
-@media (min-width:660px){
-    body{
-        background-color: blue;
-    }
-}
-
 @media (max-width:768px){
-    body{
-        background-color: green;
-    }
-
     .menus{
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
+    }
+
+    .rows{
+        flex-wrap: wrap;
+    }
+
+    .txt-ctr{
+        text-align: center;
     }
 
     .jumbotron{
@@ -473,6 +471,7 @@ footer{
     .column-12{
         width: 100%;
         flex-wrap: wrap;
+        text-align: center;
     }
 
     }

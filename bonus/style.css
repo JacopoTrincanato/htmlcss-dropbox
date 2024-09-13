@@ -413,7 +413,7 @@ header{
 }
 /*#endmain region */
 
-/*#footer region */
+/*footer region */
 
 footer{
     background-color: var(--drop-dark);
@@ -448,3 +448,17 @@ footer{
 }
 
 /*#endfooter region */
+
+/*media query*/
+
+@media (min-width:320px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media (min-width:560px){
+    body{
+        background-color: green;
+    }
+}

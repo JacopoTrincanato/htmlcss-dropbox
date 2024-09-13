@@ -451,14 +451,29 @@ footer{
 
 /*media query*/
 
-@media (min-width:320px){
+@media (min-width:660px){
     body{
         background-color: blue;
     }
 }
 
-@media (min-width:560px){
+@media (max-width:768px){
     body{
         background-color: green;
+    }
+
+    .menus{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .jumbotron{
+
+    .column-12{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
     }
 }

@@ -45,6 +45,10 @@ body{
     justify-content: space-between;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 .container{
     width: 65%;
     margin: auto;
@@ -72,10 +76,6 @@ body{
 
 .col-12{
     width: 100%;
-}
-
-.wrap{
-    flex-wrap: wrap;
 }
 
 /*#end utilities region */
@@ -452,10 +452,18 @@ footer{
 /*media query*/
 
 @media (max-width:768px){
+
+    [class^="col-"]{
+        width: 100%;
+        max-height: 1000px;
+        margin: 2rem 0;
+    }
+    
     .menus{
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .rows{
@@ -469,8 +477,6 @@ footer{
     .jumbotron{
 
     .column-12{
-        width: 100%;
-        flex-wrap: wrap;
         text-align: center;
     }
 

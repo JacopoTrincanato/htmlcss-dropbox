@@ -455,7 +455,6 @@ footer{
 
     [class^="col-"]{
         width: 100%;
-        
         margin: 2rem 0;
     }
     
@@ -485,5 +484,28 @@ footer{
     .carder{
         object-fit: contain;
     }
-    
+
+    .bottoms{
+        margin-bottom: 2rem;
+    }
+
+    .column{
+        flex-direction: column;
+    }
+
+    .gaps{
+        gap: 4rem;
+    }
+
+    .flexing{
+        display: flex;
+        border: 1px solid var(--drop-light);
+        padding: 1rem;
+    }
+
+    .h-container{
+        width: 35%;
+    }
 }
+
+

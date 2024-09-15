@@ -455,7 +455,7 @@ footer{
 
     [class^="col-"]{
         width: 100%;
-        max-height: 1000px;
+        
         margin: 2rem 0;
     }
     
@@ -474,11 +474,16 @@ footer{
         text-align: center;
     }
 
-    .jumbotron{
-
     .column-12{
         text-align: center;
     }
 
+    .orders{
+        order: -1;
     }
+
+    .carder{
+        object-fit: contain;
+    }
+    
 }

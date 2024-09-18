@@ -49,7 +49,6 @@ body{
     width: 65%;
     margin: auto;
     padding: 1rem;
-    height: 500px;
 }
 
 .container-sm{
@@ -58,8 +57,14 @@ body{
     padding: 2rem;
 }
 
+.row {
+    display: flex;
+    margin: 0 -1rem;
+    flex-wrap: wrap;
+}
+
 .col-4, .col-8, .col-12{
-    padding: 0.5rem; 
+    padding: 1rem; 
 }
 
 .col-4, .col-logos{
@@ -97,7 +102,7 @@ img{
 
 h1{
     
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 h2{
@@ -118,6 +123,10 @@ h4{
     margin-top: 2rem;
 }
 
+.m-top_3rem{
+    margin-top: 3rem;
+}
+
 /*#end common region */
 
 /*#header region */
@@ -134,6 +143,7 @@ header{
     background-color: var(--drop-buttons);
     border: none;
     padding: 0.5rem 0.75rem;
+    display: block;
 }
 
 .left-menu{
@@ -152,19 +162,20 @@ header{
     background-color: var(--drop-section-light);
 }
 
-.col-8 img{
-    margin-bottom: -5rem;
+.jumbotron{
+    height: 520px;
+
+    img{
+        margin-bottom: -25rem;
+    }
 }
+
 
 .delete{
     color: var(--drop-dark);
     text-decoration: none;
     display: inline-block;
     margin-bottom: 2rem;
-}
-
-.payment-plan{
-    margin-left: 3rem;
 }
 
 .radio-container {
@@ -218,7 +229,7 @@ header{
 
 .card{
     border: 1px solid lightgray;
-    height: 1000px;
+    height: 100%;
 }
 
 .yearly{
@@ -240,11 +251,12 @@ header{
 }
 
 .plans{
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 .card-body{
     padding: 1rem;
+    min-height: 500px;
 }
 
 .dropbox-business .container-sm h2{
@@ -270,13 +282,12 @@ header{
 }
 
 .try{
-    display: inline-block;
     margin-top: 2rem;
     text-align: center;
 }
 
 .contact{
-    padding: 0.5rem 5rem;
+    padding: 0.5rem 0.5rem;
 }
 
 .card-body-bottom-list > li i{
@@ -284,7 +295,7 @@ header{
 }
 
 .big-card-body, .call-to-action{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .big-card-title, .big-card-body{
@@ -325,7 +336,7 @@ header{
     aspect-ratio: 1;
     object-fit: contain;
     filter: invert(1);
-    padding: 2.5rem;
+    padding: 1.3rem;
 }
 
 .designit{
@@ -445,6 +456,7 @@ footer{
 
 .lang-selection{
     border-top: 1px solid var(--drop-light);
+    
 }
 
 /*#endfooter region */

@@ -107,7 +107,6 @@ h1{
 
 h2{
     font-size: 2rem;
-    margin-top: 3rem;
 }
 
 h3{
@@ -166,7 +165,8 @@ header{
     height: 520px;
 
     img{
-        margin-bottom: -25rem;
+        height: 100%;
+        width: 100%;
     }
 }
 
@@ -266,7 +266,6 @@ header{
 .sell-office{
     color: var(--drop-light);
     background-color: var(--drop-buttons);
-    margin-top: 3rem;
     padding: 0.5rem 0.75rem;
 }
 
@@ -296,6 +295,10 @@ header{
 
 .big-card-body, .call-to-action{
     padding: 1rem;
+}
+
+.big-card-body-top{
+    align-items: center;
 }
 
 .big-card-title, .big-card-body{
@@ -397,6 +400,10 @@ header{
     color: var(--drop-arziona);
 }
 
+.call-to-action{
+    padding: 3rem 0;
+}
+
 .free-try{
     background-color: var(--drop-light);
     text-align: center;
@@ -420,7 +427,7 @@ header{
 }
 
 #questions{
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 /*#endmain region */
 
